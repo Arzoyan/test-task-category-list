@@ -1,0 +1,31 @@
+.category-item-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.category-item {
+  width: 280px;
+  height: 280px;
+  margin: 20px;
+}
+
+.pagination {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.pagination-btn {
+  width: 70px;
+  height: 25px;
+  border: 1px solid;
+  border-radius: 12px;
+  cursor: pointer;
+  color: #0c7db1;
+}
+
+.pagination-btn:hover {
+  background-color: #0c7db1;
+  color: #fff;
+}
